@@ -1,0 +1,31 @@
+{
+  "name": "quizzapp-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mathjs": "^10.0.2",
+    "package.json": "^2.0.1",
+    "register-service-worker": "^1.5.2",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "register-service-worker": "^1.5.2"
+  },
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erma0x/quizzapp-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erma0x/quizzapp-v2/issues"
+  },
+  "homepage": "https://github.com/erma0x/quizzapp-v2#readme",
+  "description": "quiz game app server with express js"
+}
